@@ -1,0 +1,30 @@
+
+
+info={'name':'Vanshika','age':16,'eligible':True}
+print(type(info))
+print(info)
+info.update({'age':18})
+info.update({'DOB':2005})
+print(info)
+
+
+employee={'name':'Simran','age':'26','eligible':True}
+employee.clear()
+print(employee)
+
+student={'name':'Pankaj','age':17,'marks':50}
+student.pop('marks')
+print(student)
+
+dict={'animal':'Lion','voice':'roar'}
+dict.popitem()
+print(dict)
+
+family={'father':'sanjay','mother':'rajni','brother':'sachin','sister':'vanshika'}
+del family['sister']
+print(family)
+
+#bird={'name':'duck','voice':'quack'}
+#del bird
+#print(bird)
+input()

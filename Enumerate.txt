@@ -1,0 +1,27 @@
+
+
+fruits=['apple','banana','mango']
+for index, fruits in enumerate(fruits):
+    print(index, fruits)
+print("end")
+    
+#changing the start index
+animals=['cat','dog','deer']
+for index, animals in enumerate(animals, start=2):
+    print(index, animals)
+print("end")
+    
+birds=['spparow','parrot','crow']
+for index, birds in enumerate(birds):
+    print(f'{index+1}:{birds}')
+print("end")
+
+colors=('red','blue','black')
+for index, color in enumerate(colors):
+    print(index, colors)
+print("end")
+
+v="hello"
+for index, s in enumerate(v):
+    print(index, s)
+input()

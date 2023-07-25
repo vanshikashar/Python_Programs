@@ -1,0 +1,7 @@
+
+
+a=int(input("Enter first number: "))
+b=int(input("Enter second number: "))
+x=a+b
+print("Sum of",a,"and",b,"is",x)
+input()

@@ -1,0 +1,12 @@
+
+a={"goat","tiger","rhino","ostrich","goat","goat"}
+print(a)
+print(type(a))
+
+b=set()
+print(type(b))
+
+c={89,98,34,56,67,23,56,67,34,76}
+for item in c:
+    print(item)
+input()

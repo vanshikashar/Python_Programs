@@ -1,0 +1,36 @@
+
+
+marks=[10,20,30,40,50,60,70,80,90]
+print(marks)
+animals=["Dog","Cat","Elephant","Horse","Lion"]
+print(animals[:])
+colors=["red","orange","green","blue","purple"]
+print(colors[4])
+print(colors[2])
+days=["sun","mon","tue","wed","thu","fri","sat"]
+print(days[-5])
+print(days[-3])
+print(type(animals))
+if 50 in marks:
+    print("Yes")
+else:
+    print("No")
+    
+if "white" in colors:
+    print("Yes")
+else:
+    print("No")
+    
+fruits=["apple","mango","orange","grapes","banana","guava","melon","water melon"]
+print(fruits[2:6])
+print(fruits[-6:-1])
+print(fruits[::2])
+print(marks[2:9:3])
+input()
+num=["one","two","three","four","five","six","seven","eight","nine","ten"]
+numwith_0=[item for item in num if "i" in item]
+print(numwith_0)
+
+numwith_0=[item for item in num if (len(item)>3)]
+print(numwith_0)
+       

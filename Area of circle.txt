@@ -1,0 +1,4 @@
+
+
+print("Area of circle is",3.14*float(input("Enter radius of circle"))**2)
+input()

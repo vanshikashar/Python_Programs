@@ -1,0 +1,95 @@
+# string methods. strings are immutable
+str1 = "vanshika"
+print(str1.upper())
+# using lower method
+str2 = "SHARMA"
+print(str2.lower())
+# using strip method
+c = " Silver Spoon "
+print(c.strip())
+#using rstrip method
+d = "hello!!!"
+print(d.rstrip("!"))
+#using replace method
+e = "Silver Spoon"
+print(e.replace("Sp", "M"))
+#using split method
+f = "Creative Notebook"
+print(f.split(" "))
+#using capitalize method
+g = "lovino BaLL pen"
+print(g.capitalize())
+#using center method
+h = "My Dell Support Center"
+print(h.center(50, "."))
+print(len(h))
+#using count method
+i = "abaracadabra"
+print(i.count("a"))
+
+#using endswith method
+k = "welcome to home??"
+print(k.endswith("?"))
+
+l = "welcome to area"
+print(l.endswith("to", 4, 10))
+
+#using find method
+m = "her name is Vanshika. She is honest"
+print(m.find("honest"))
+
+#using index method
+o = "Lion is powerful animal. Lion is king of jungle"
+print(o.index("Lion"))
+
+#using isalnum method
+p = "10notebook"
+print(p.isalnum())
+
+#using isalpha method
+q = "largosofia"
+print(q.isalpha())
+
+#using islower method
+r = "elkos lovino"
+print(r.islower())
+
+#using isprintable method
+s = "My birthday"
+print(s.isprintable())
+
+s2 = "my\nbirthday"
+print(s2.isprintable())
+
+#using isspace method
+t = "      "  #using spacebar
+print(t.isspace())
+t2 = "      "  #using tab
+print(t2.isspace())
+
+#using istitle method
+u = "World Wide Web"
+print(u.istitle())
+u2 = "mocking Bird"
+print(u2.istitle())
+
+#using isupper method
+v = "GO WRITE YOUR SUCCESS"
+print(v.isupper())
+v2 = "hello there"
+print(v2.isupper())
+
+#using startswith method
+w = "Python is an Intrepreted Language"
+print(w.startswith("Python"))
+w2 = "i am  a queencard"
+print(w2.startswith("queen"))
+
+#using swapcase method
+x = "GOOD god ever"
+print(x.swapcase())
+
+#using title method
+y = "the quality of product"
+print(y.title())
+input()

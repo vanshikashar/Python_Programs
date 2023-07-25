@@ -1,0 +1,28 @@
+
+
+def Gmean(a,b):
+    mean=(a*b)/(a+b)
+    print(mean)
+    
+def findgreator(a,b):
+    if(a>b):
+        print("First number is greater.")
+    else:
+        print("Second number is greator or equal .")
+def islesser(a,b):
+    pass
+
+    
+a=5
+b=5
+findgreator(a, b)
+Gmean(a,b)
+
+c=67
+d=54
+findgreator(c, d)
+Gmean(c,d)
+input()
+
+
+    

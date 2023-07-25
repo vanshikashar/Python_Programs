@@ -1,0 +1,7 @@
+
+
+print("Enter the value of length, breadth and height of cuboid:")
+l,b,h=float(input()),float(input()),float(input())
+v=l*b*h
+print("Volume of cuboid:",v)
+input()

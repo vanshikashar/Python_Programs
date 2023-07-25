@@ -1,0 +1,20 @@
+
+
+intro="Hello, my name is {}, I am live in {} and I am {} student"
+country="India"
+name="Vanshika"
+subject="Computer Science"
+print(intro.format(name, country, subject))
+
+
+sub="My favourite subject is {} and I feel {} while I am studying."
+subname="Maths"
+feel="Better"
+print(f"My favourite subject is {subname} and I feel {feel} while I am studying.")
+
+price=54.834727364
+text=f"For only {price:.2f} dollars"
+print(text)
+
+print(f"{2*30}")
+input()
